@@ -1,0 +1,81 @@
+body {
+    font-family: 'arial';
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  .content {
+    background-color: #2c2c2c;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  
+  #task-name,
+  #new-task {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  #task-name {
+    width: 15rem;
+    border-radius: 1rem;
+  }
+  
+  #new-task {
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 3rem;
+    width: 39px;
+    height: 39px;
+    transition: 0.5s;
+  }
+  
+  #new-task:hover {
+    background-color: black;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    width: 300px;
+  }
+  
+  .tasks li {
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .conclude {
+    background-color: #03e203;
+    transition: 0.5s;
+    border: none;
+    border-radius: 3rem;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .conclude:hover {
+    background-color: #47ff47;
+  }
